@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: #BEDBBB;
+}
+/* Navigation Bar */
+nav{
+    padding: 20px;
+    background: #8db596c4;
+    box-shadow: 0 0 5px rgba(3, 3, 3, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: .5s ease;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(96, 205, 238);
+}
+
+/* End Navbar */
+
+/* for cover */
+.cover{
+    background-image: url("https://media.wired.com/photos/5b3fef05ce9419115f46bb49/master/pass/milkyway-531503110.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    max-width: 1365px;
+    height: 600px;
+    place-items: center;
+}
+.welcome{
+    color: black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+/* end cover */
+
+
+
+
+h1{
+    margin: 20px;
+}
+.container{
+    margin: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile{
+    /* background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    place-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 400px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.name{
+    background: #8DB596;
+    position: relative;
+    flex: 1;
+    max-width: 700px;
+    height: auto;
+}
+.cursive{
+    margin-left: 50px;
+}
+/* .heart{
+    margin-top: 10px;
+    margin-left: 5px;
+} */
+.left{
+    background: #8DB596;
+    position: relative;
+    flex: 1;
+    max-width: 333px;
+    height: 100px;
+}
+.right {
+    background: #92817A;
+    position: relative;
+    flex: 1;
+    max-width: 667px;
+    height: 100px;
+}
